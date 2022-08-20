@@ -4,6 +4,10 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
+    fontFamily: {
+      'Calistoga': ['Calistoga'],
+      'Poppins': ['Poppins'],
+    },
     extend: {},
   },
   plugins: [],
