@@ -6,7 +6,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .btn{
+        @apply
+        inline-block bg-bBlue text-white px-4 py-3 rounded-3xl shadow-xl uppercase tracking-wider text-sm sm:text-base hover:bg-bBlue-light hover:-translate-y-0.5 transform transition focus:outline-none focus:ring focus:ring-offset-2 focus:ring-bBlue-dark focus:ring-opacity-50 active:bg-bBlue-dark
+    }
+}
+
 body::-webkit-scrollbar {
     display: none;
 }
+
+
 
